@@ -4,6 +4,7 @@
 
 .contain {
   padding: 20px 60px;
+  background: rgba(0, 0, 0, 0.171);
 }
 
 #navMenu {
@@ -54,12 +55,13 @@
 
 section {
   height: 100vh;
-  background-image: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.671),
-      rgba(0, 0, 0, 0.788)
+      rgba(219, 131, 131, 0.171),
+      rgba(0, 0, 0, 0.188)
     ),
-    url(download.png);
+    url("/appointment.png"); */
+  background-color: #000;
   background-size: cover;
 }
 
